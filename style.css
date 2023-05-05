@@ -1,0 +1,57 @@
+body {
+  /* when we use css grid then for center the item we use justify content center */
+  display: grid;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background:  #cee73f;
+	/* background: linear-gradient(200deg,#5ba937cb 0%,#ca410fb6 90%); */
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid rgb(38, 10, 44);
+  border-radius: 50px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: rgb(216, 36, 174);
+}
+
+.row{
+  margin: 8px 0;
+}
+.row input{
+  width: 291px;
+  font-size: 30px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/* .text-center{
+  text-align: center;
+} */
+
+
+.mx-auto{
+  margin: auto;
+}
+
+.flex{
+  display:flex;
+} 
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+.num{
+  text-align: center;
+}
